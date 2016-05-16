@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/ToshkentGullari.Models" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/ToshkentGullari.Models" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfProductModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ProductModel" nillable="true" type="tns:ProductModel" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProductModel" nillable="true" type="tns:ArrayOfProductModel" />
+  <xs:complexType name="ProductModel">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="BusinessCode" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Price" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="ProductDescription" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ProductModel" nillable="true" type="tns:ProductModel" />
+</xs:schema>

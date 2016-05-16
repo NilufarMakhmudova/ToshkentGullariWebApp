@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="toshkentGullari" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Nilufar\\Documents\\Level6\\WAD\\CW2\\ToshkentGullari\\ToshkentGullari\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Nilufar\\Documents\\Level6\\WAD\\CW2\\ToshkentGullari\\ToshkentGullari\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="toshkentGullari/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Nilufar\\Documents\\Level6\\WAD\\CW2\\ToshkentGullari\\ToshkentGullari\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-ToshkentGullari-20150310032652.mdf;Initial Catalog=aspnet-ToshkentGullari-20150310032652;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nilufar\\Documents\\Level6\\WAD\\CW2\\ToshkentGullari\\ToshkentGullari\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ToshkentGullariDBEntities-Web.config Connection String" description="" value="metadata=res://*/Models.TGDB.csdl|res://*/Models.TGDB.ssdl|res://*/Models.TGDB.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=(LocalDB)\v11.0;attachdbfilename=|DataDirectory|\ToshkentGullariDB.mdf;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nilufar\\Documents\\Level6\\WAD\\CW2\\ToshkentGullari\\ToshkentGullari\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ToshkentGullariDBEntities']/@connectionString" />
+  </parameter>
+</parameters>

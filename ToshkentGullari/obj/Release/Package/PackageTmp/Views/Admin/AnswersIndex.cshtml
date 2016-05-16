@@ -1,0 +1,51 @@
+﻿@model IEnumerable<ToshkentGullari.Models.Answer>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateAnswer")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AdminID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Answer1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TimeAnswered)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Support.Category)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AdminID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Answer1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TimeAnswered)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Support.Category)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditAnswer", new { id = item.ID }) |
+            @Html.ActionLink("Details", "AnswerDetails", new { id = item.ID }) |
+            @Html.ActionLink("Delete", "DeleteAnswer", new { id = item.ID })
+        </td>
+    </tr>
+}
+
+</table>

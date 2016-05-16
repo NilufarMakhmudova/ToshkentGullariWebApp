@@ -1,0 +1,24 @@
+﻿@model IEnumerable<ToshkentGullari.Models.Category>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">@Resources.CategoriesTitle</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="nav nav-pills nav-stacked">
+            <li><a href="~/Views/Products/Index.cshtml">@Resources.CategoriesAll</a></li>
+
+            @foreach (var category in Model)
+            {
+
+                <li>
+                    @Html.ActionLink(category.Name, "Browse", "Products", new { categoryID = category.Id }, null)
+                </li>
+            }
+        </ul>
+</div>
+</div>
+
+           
+
+        

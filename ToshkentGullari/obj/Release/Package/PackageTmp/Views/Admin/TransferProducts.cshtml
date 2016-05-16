@@ -1,0 +1,19 @@
+﻿       
+        @{
+            ViewBag.Title = "Transfer products";
+        }
+
+        <h2>Products information exchange</h2>
+<div class="row">
+    @Html.ActionLink("Save the list in XML format", "TransferProducts", "Admin", new { mode = "SaveXML" }, new { @class = "btn btn-primary col-md-3 col-sm-2" })
+    @Html.ActionLink("Swich to CSV format", "TransferProducts", "Admin", new { mode = "Switch to CSV" }, new { @class = "btn btn-primary col-md-3 col-md-offset-1 col-sm-2" })
+    @Html.ActionLink("Swich to HTML format", "TransferProducts", "Admin", new { mode = "" }, new { @class = "btn btn-primary col-md-3 col-md-offset-1 col-sm-2" })
+    @if (ViewData["Failed"] != null) {
+        <div>
+            @ViewData["Failed"]
+        </div>
+        }
+</div>
+<br />
+      <table> @Html.Raw(ViewBag.htmlString)</table>
+   

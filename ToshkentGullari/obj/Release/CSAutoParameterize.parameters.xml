@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-ToshkentGullari-20150310032652.mdf;Initial Catalog=aspnet-ToshkentGullari-20150310032652;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nilufar\\Documents\\Level6\\WAD\\CW2\\ToshkentGullari\\ToshkentGullari\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="ToshkentGullariEntities-Web.config Connection String" description="ToshkentGullariEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.ToshkentGullariRemoteModel.csdl|res://*/Models.ToshkentGullariRemoteModel.ssdl|res://*/Models.ToshkentGullariRemoteModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=toshkent-gullar.cvnjrg7oxfte.us-west-2.rds.amazonaws.com,1433;initial catalog=ToshkentGullari;persist security info=True;user id=toshkent_gullar;password=toshkent_gullar;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nilufar\\Documents\\Level6\\WAD\\CW2\\ToshkentGullari\\ToshkentGullari\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ToshkentGullariEntities']/@connectionString" />
+  </parameter>
+  <parameter name="ToshkentGullari.Models.ToshkentGullariDBEntities-Web.config Connection String" description="ToshkentGullari.Models.ToshkentGullariDBEntities Connection String used in web.config by the application to access the database." defaultValue="ToshkentGullari.Models.ToshkentGullariDBEntities_ConnectionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Nilufar\\Documents\\Level6\\WAD\\CW2\\ToshkentGullari\\ToshkentGullari\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ToshkentGullari.Models.ToshkentGullariDBEntities']/@connectionString" />
+  </parameter>
+</parameters>

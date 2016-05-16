@@ -1,0 +1,9 @@
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Debug\ToshkentGullari.Services.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Debug\ToshkentGullari.Services.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Debug\ToshkentGullari.Core.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Debug\ToshkentGullari.Core.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\obj\Debug\ToshkentGullari.Services.csprojResolveAssemblyReference.cache
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\obj\Debug\ToshkentGullari.Services.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\obj\Debug\ToshkentGullari.Services.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Debug\Newtonsoft.Json.xml

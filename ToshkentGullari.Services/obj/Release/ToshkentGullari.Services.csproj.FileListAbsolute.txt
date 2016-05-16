@@ -1,0 +1,9 @@
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Release\ToshkentGullari.Services.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Release\ToshkentGullari.Services.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Release\ToshkentGullari.Core.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Release\ToshkentGullari.Core.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\obj\Release\ToshkentGullari.Services.csprojResolveAssemblyReference.cache
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\obj\Release\ToshkentGullari.Services.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\obj\Release\ToshkentGullari.Services.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Release\Newtonsoft.Json.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Services\bin\Release\Newtonsoft.Json.xml

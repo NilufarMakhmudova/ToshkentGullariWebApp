@@ -1,0 +1,10 @@
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\bin\Debug\ToshkentGullari.Resources.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\bin\Debug\ToshkentGullari.Resources.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Debug\ToshkentGullari.Resources.csprojResolveAssemblyReference.cache
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Debug\ToshkentGullari.Resources.Resources.resources
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Debug\ToshkentGullari.Resources.csproj.GenerateResource.Cache
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Debug\ToshkentGullari.Resources.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Debug\ToshkentGullari.Resources.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\bin\Debug\ru-RU\ToshkentGullari.Resources.resources.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Debug\ToshkentGullari.Resources.Resources.ru-RU.resources
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Debug\ru-RU\ToshkentGullari.Resources.resources.dll

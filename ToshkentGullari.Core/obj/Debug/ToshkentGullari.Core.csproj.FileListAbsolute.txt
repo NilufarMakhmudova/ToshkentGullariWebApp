@@ -1,0 +1,7 @@
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Core\bin\Debug\ToshkentGullari.Core.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Core\bin\Debug\ToshkentGullari.Core.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Core\obj\Debug\ToshkentGullari.Core.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Core\obj\Debug\ToshkentGullari.Core.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Core\obj\Debug\ToshkentGullari.Core.csprojResolveAssemblyReference.cache

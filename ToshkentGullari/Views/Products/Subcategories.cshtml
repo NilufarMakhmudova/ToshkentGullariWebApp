@@ -1,0 +1,11 @@
+﻿@model IEnumerable<ToshkentGullari.Models.Subcategory>
+
+@foreach (var subcategory in Model)
+{
+    <li class="divider"><>/li
+      <li>  @Html.ActionLink(subcategory.Name,
+                "Browse", "Products",
+                new { subcategoryID = subcategory.Id }, null)
+        <span> </span>
+    </li>
+}

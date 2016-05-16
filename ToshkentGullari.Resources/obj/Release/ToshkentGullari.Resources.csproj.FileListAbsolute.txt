@@ -1,0 +1,9 @@
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\bin\Release\ToshkentGullari.Resources.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\bin\Release\ToshkentGullari.Resources.pdb
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\bin\Release\ru-RU\ToshkentGullari.Resources.resources.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Release\ToshkentGullari.Resources.Resources.resources
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Release\ToshkentGullari.Resources.Resources.ru-RU.resources
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Release\ToshkentGullari.Resources.csproj.GenerateResource.Cache
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Release\ru-RU\ToshkentGullari.Resources.resources.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Release\ToshkentGullari.Resources.dll
+C:\Users\Nilufar\Documents\Level6\WAD\CW2\ToshkentGullari\ToshkentGullari.Resources\obj\Release\ToshkentGullari.Resources.pdb

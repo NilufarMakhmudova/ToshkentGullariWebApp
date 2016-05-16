@@ -1,0 +1,64 @@
+﻿@model PagedList.IPagedList<ToshkentGullari.Models.Product>
+@using PagedList.Mvc;
+<link href="~/Content/PagedList.css" rel="stylesheet" type="text/css" />
+@{
+    ViewBag.Title = Resources.ProductsTitle;
+}
+
+
+<div class="row">
+    <div class="col-md-3">
+        <div> @{Html.RenderAction("Categories", "Products");}</div>
+        <div> @Html.Partial("_GoogleSearch")</div>
+        <div> @Html.Partial("_SpeedyAd")</div>
+        <div> @Html.Partial("_FacebookLikeButton")</div>
+    </div>
+    <div class="col-md-9">
+
+        <h2>@Resources.ProdectsIndexTitle</h2>
+
+        <div id="order">
+            @Resources.SortText 
+            @Html.ActionLink(@Resources.SortName, "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })
+            @Html.ActionLink(@Resources.SortPrice, "Index", new { sortOrder = ViewBag.PriceSortParm, currentFilter = ViewBag.CurrentFilter })
+        </div>
+
+        <div class="row">
+            @foreach (var product in Model)
+            {
+
+                <div class="col-sm-6 col-md-4 ">
+                    <div class="thumbnail">
+
+
+                        <img alt="@product.Name" src="~/Content/Images/@product.PictureURL" title="@product.Name" class="img-responsive" />
+
+                        <div class="caption" style="padding:15px">
+                            <h4> @Html.ActionLink(product.Name, "Details", new { id = product.ID })</h4>
+                            <p>
+                                <i>SBN: @product.BusinessCode</i>
+                            </p>
+                            <a href="#" class="btn btn-primary" role="button">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <br />
+        Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action("Index",
+             new { page, sortOrder = ViewBag.CurrentSort, currentFilter = ViewBag.CurrentFilter, searchString = ViewBag.CurrentSearch }))
+
+        
+        
+
+
+    </div>
+</div>
+
+
+
+
+

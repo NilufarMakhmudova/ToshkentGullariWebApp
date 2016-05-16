@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ToshkentGullari.API.Products" CodeBehind="Products.svc.cs" %>
